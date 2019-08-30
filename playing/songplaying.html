@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Song playing now</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="songplaying.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+  <link rel='shortcut icon' type='image/x-icon' href='https://previews.123rf.com/images/butenkow/butenkow1612/butenkow161202097/67425732-pattern-design-music-logo-vector-illustration-of-icon.jpg' />
+</head>
+<body>
+  
+<!-- music being playing now bottom bar -->
+
+    <section id="music-playing-now">
+    <div class="music-playing-now-items">
+      <div id="music-playing-now-details">
+        <div id="music-playing-now-details-photo">
+          <img src="../assets/popular_artists/shakira.jpg">
+        </div>
+        <div id="music-playing-now-details-info">
+          <div id="music-playing-now-songname">
+            Imagine Dragons
+          </div>
+          <div id="music-playing-now-singername">
+            John Lennon
+          </div>
+        </div>
+        <div id="music-playing-now-details-favourite">
+          <i class="fas fa-heart"></i>
+        </div>
+        <div id="music-playing-now-details-nolike">
+			<i class="fas fa-heart"></i>
+        </div>
+      </div>
+    </div>
+    <div class="music-playing-now-items" style="width: 300px;">
+      <div id="music-playing-now-bar">
+        <div id="music-playing-now-bar-controls">
+          <div><i class="fas fa-random"></i></div>
+          <div><i class="fas fa-step-backward"></i></div>
+          <div style="font-size: 2.5rem"><i class="fas fa-pause-circle"></i></div>
+          <div><i class="fas fa-step-forward"></i></div>
+          <div><i class="fas fa-redo"></i></div>
+        </div>
+        <div id="music-playing-now-bar-indicator">
+         <!-- <audio
+         controls
+         src="/media/examples/t-rex-roar.mp3">
+         Your browser does not support the
+         <code>audio</code> element.
+	   </audio> -->
+	   <div>1:39</div>
+          <div id="music-playing-now-indicator-circle">
+              <div>
+                <div></div>
+              </div>
+          </div>
+          <div>4:44</div>
+     </div>
+   </div>
+ </div>
+ <div class="music-playing-now-items">
+  <div id="music-playing-now-more-control">
+   <div><i class="fas fa-sort-amount-down"></i></div>
+   <div><i class="fas fa-headphones"></i></div>
+   <div><i class="fas fa-volume-up"></i></div>
+   <div><i class="fas fa-angle-double-up"></i></div>
+   <div><i class="fas fa-angle-double-down"></i></div>
+   <div><a href="#"><i class="fas fa-expand"></i></a></div>
+ </div>
+</div>
+</section>
+
+<!-- navigation bar  -->
+
+  <header id="navigation">
+ <nav>
+
+<!-- left navigation bar -->
+
+  <div class="nav-left">
+    <ul>
+     <li>
+      <div id="brand-logo"><a href="../index.html">
+       <img id="brand-logo" class="header-image" src="../assets/brandlogo.jpg"></a>
+       <span>Ninja studio</span>
+     </div>
+   </li>
+   <li>Favourites</li>
+ </ul>
+</div>
+
+<!-- right navigation bar -->
+
+<div class="nav-right">
+  <div id="hamburger-icon"><i class="fas fa-bars"></i></div>
+  <ul>
+	<li id="header-input">
+	 <i class="fas fa-search"></i>
+	 <input type="text" name="search" placeholder="Search">
+	 <i class="fas fa-microphone"></i>
+   </li>
+   <li style="position: relative;">
+	 <i class="far fa-bell"></i>
+	 <p style="position: absolute;background-color: red;width: 5px;height: 5px;border-radius: 5px;top: -15px;right: 1px;"></p>
+   </li>
+   <li>
+	 <img id="user-image" class="header-image" src="../assets/profilephoto.jpg">
+   </li>
+ </ul>
+</div>
+</nav>
+</header>
+
+<!-- music main section -->
+
+  <main>
+  	<section id="music">
+
+<!-- details of music and singer being played right now -->
+
+  		<div id="music-playing-right-now">
+  			<div id="music-playing-right-now-icon">
+  			</div>
+  			<div id="music-playing-right-now-details">
+  				<div id="music-playing-right-now-details-top">
+  				<div id="music-playing-right-now-details-header">
+  					<div>ColdPlay</div>
+  					<div>851&nbsp;Followers</div>
+  				</div>
+  				<div>British Band</div>
+  				<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  				consequat.</div>
+  				</div>
+  				<div id="music-playing-right-now-details-bottom">
+  					<div>
+  						<div><button style="    width: 100px;
+						    background-image: linear-gradient(-90deg ,#4c2ab7,#b945dc);
+						    height: 25px;
+						    border: none;">Play All</button></div>
+  						<div style="
+						    margin-left: 20px;
+						">Follow</div>
+  					</div>
+  					<div style="margin-top: 10px;">247&nbsp;Tracks|128&nbsp;Albums</div>
+  				</div>
+  			</div>
+  		</div>
+  		<div id="music-playing-right-now-choices" class="music-common">
+  			<div id="music-playing-right-now-choices-content">
+  			  <div class="music-playing-right-now-choices-content-items">
+  			  	<div>
+  			  		<div>01</div>
+  			  		<div><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVrssupCjgAvqtxnHygr-4qipUL81b3oaIKDxrYrHZ0uDaAz9a"></a></div>
+  			  		<div>
+  			  			<div>
+  			  				Mirage
+  			  			</div>
+  			  			<div>
+  			  				Else
+  			  			</div>
+  			  		</div>
+  			  	</div>
+  			  	<div>
+  			  		<div class="like-content">
+  			  			<i class="fas fa-heart"></i>
+  			  		</div>
+  			  		<div class="add-content">
+  			  			<i class="fas fa-plus"></i>
+  			  		</div>
+  			  	</div>
+  			  </div>
+              
+              <!-- songs choices related to music being played right now -->
+
+              <div class="music-playing-right-now-choices-content-items">
+  			  	<div>
+  			  		<div>02</div>
+  			  		<div><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVrssupCjgAvqtxnHygr-4qipUL81b3oaIKDxrYrHZ0uDaAz9a"></a></div>
+  			  		<div>
+  			  			<div>
+  			  				Mirage
+  			  			</div>
+  			  			<div>
+  			  				Else
+  			  			</div>
+  			  		</div>
+  			  	</div>
+  			  	<div>
+  			  		<div class="like-content">
+  			  			<i class="fas fa-heart"></i>
+  			  		</div>
+  			  		<div class="add-content">
+  			  			<i class="fas fa-plus"></i>
+  			  		</div>
+  			  	</div>
+  			  </div>
+
+  			  <div class="music-playing-right-now-choices-content-items">
+  			  	<div>
+  			  		<div>03</div>
+  			  		<div><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVrssupCjgAvqtxnHygr-4qipUL81b3oaIKDxrYrHZ0uDaAz9a"></a></div>
+  			  		<div>
+  			  			<div>
+  			  				Mirage
+  			  			</div>
+  			  			<div>
+  			  				Else
+  			  			</div>
+  			  		</div>
+  			  	</div>
+  			  	<div>
+  			  		<div class="like-content">
+  			  			<i class="fas fa-heart"></i>
+  			  		</div>
+  			  		<div class="add-content">
+  			  			<i class="fas fa-plus"></i>
+  			  		</div>
+  			  	</div>
+  			  </div>
+
+  			  <div class="music-playing-right-now-choices-content-items">
+  			  	<div>
+  			  		<div>04</div>
+  			  		<div><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVrssupCjgAvqtxnHygr-4qipUL81b3oaIKDxrYrHZ0uDaAz9a"></a></div>
+  			  		<div>
+  			  			<div>
+  			  				Mirage
+  			  			</div>
+  			  			<div>
+  			  				Else
+  			  			</div>
+  			  		</div>
+  			  	</div>
+  			  	<div>
+  			  		<div class="like-content">
+  			  			<i class="fas fa-heart"></i>
+  			  		</div>
+  			  		<div class="add-content">
+  			  			<i class="fas fa-plus"></i>
+  			  		</div>
+  			  	</div>
+  			  </div>
+
+  			  <div class="music-playing-right-now-choices-content-items">
+  			  	<div>
+  			  		<div>05</div>
+  			  		<div><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVrssupCjgAvqtxnHygr-4qipUL81b3oaIKDxrYrHZ0uDaAz9a"></a></div>
+  			  		<div>
+  			  			<div>
+  			  				Mirage
+  			  			</div>
+  			  			<div>
+  			  				Else
+  			  			</div>
+  			  		</div>
+  			  	</div>
+  			  	<div>
+  			  		<div class="like-content">
+  			  			<i class="fas fa-heart"></i>
+  			  		</div>
+  			  		<div class="add-content">
+  			  			<i class="fas fa-plus"></i>
+  			  		</div>
+  			  	</div>
+  			  </div>
+
+  			  <div class="music-playing-right-now-choices-content-items">
+  			  	<div>
+  			  		<div>06</div>
+  			  		<div><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVrssupCjgAvqtxnHygr-4qipUL81b3oaIKDxrYrHZ0uDaAz9a"></a></div>
+  			  		<div>
+  			  			<div>
+  			  				Mirage
+  			  			</div>
+  			  			<div>
+  			  				Else
+  			  			</div>
+  			  		</div>
+  			  	</div>
+  			  	<div>
+  			  		<div class="like-content">
+  			  			<i class="fas fa-heart"></i>
+  			  		</div>
+  			  		<div class="add-content">
+  			  			<i class="fas fa-plus"></i>
+  			  		</div>
+  			  	</div>
+  			  </div>
+
+  			  <div class="music-playing-right-now-choices-content-items">
+  			  	<div>
+  			  		<div>07</div>
+  			  		<div><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVrssupCjgAvqtxnHygr-4qipUL81b3oaIKDxrYrHZ0uDaAz9a"></a></div>
+  			  		<div>
+  			  			<div>
+  			  				Mirage
+  			  			</div>
+  			  			<div>
+  			  				Else
+  			  			</div>
+  			  		</div>
+  			  	</div>
+  			  	<div>
+  			  		<div class="like-content">
+  			  			<i class="fas fa-heart"></i>
+  			  		</div>
+  			  		<div class="add-content">
+  			  			<i class="fas fa-plus"></i>
+  			  		</div>
+  			  	</div>
+  			  </div>
+
+  			  <div class="music-playing-right-now-choices-content-items">
+  			  	<div>
+  			  		<div>08</div>
+  			  		<div><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVrssupCjgAvqtxnHygr-4qipUL81b3oaIKDxrYrHZ0uDaAz9a"></a></div>
+  			  		<div>
+  			  			<div>
+  			  				Mirage
+  			  			</div>
+  			  			<div>
+  			  				Else
+  			  			</div>
+  			  		</div>
+  			  	</div>
+  			  	<div>
+  			  		<div class="like-content">
+  			  			<i class="fas fa-heart"></i>
+  			  		</div>
+  			  		<div class="add-content">
+  			  			<i class="fas fa-plus"></i>
+  			  		</div>
+  			  	</div>
+  			  </div>
+
+  			  <div class="music-playing-right-now-choices-content-items">
+  			  	<div>
+  			  		<div>09</div>
+  			  		<div><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVrssupCjgAvqtxnHygr-4qipUL81b3oaIKDxrYrHZ0uDaAz9a"></a></div>
+  			  		<div>
+  			  			<div>
+  			  				Mirage
+  			  			</div>
+  			  			<div>
+  			  				Else
+  			  			</div>
+  			  		</div>
+  			  	</div>
+  			  	<div>
+  			  		<div class="like-content">
+  			  			<i class="fas fa-heart"></i>
+  			  		</div>
+  			  		<div class="add-content">
+  			  			<i class="fas fa-plus"></i>
+  			  		</div>
+  			  	</div>
+  			  </div>
+
+  			  <div class="music-playing-right-now-choices-content-items">
+  			  	<div>
+  			  		<div>10</div>
+  			  		<div><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVrssupCjgAvqtxnHygr-4qipUL81b3oaIKDxrYrHZ0uDaAz9a"></a></div>
+  			  		<div>
+  			  			<div>
+  			  				Mirage
+  			  			</div>
+  			  			<div>
+  			  				Else
+  			  			</div>
+  			  		</div>
+  			  	</div>
+  			  	<div>
+  			  		<div class="like-content">
+  			  			<i class="fas fa-heart"></i>
+  			  		</div>
+  			  		<div class="add-content">
+  			  			<i class="fas fa-plus"></i>
+  			  		</div>
+  			  	</div>
+  			  </div>
+
+  			  <div class="music-playing-right-now-choices-content-items">
+  			  	<div>
+  			  		<div>11</div>
+  			  		<div><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVrssupCjgAvqtxnHygr-4qipUL81b3oaIKDxrYrHZ0uDaAz9a"></a></div>
+  			  		<div>
+  			  			<div>
+  			  				Mirage
+  			  			</div>
+  			  			<div>
+  			  				Else
+  			  			</div>
+  			  		</div>
+  			  	</div>
+  			  	<div>
+  			  		<div class="like-content">
+  			  			<i class="fas fa-heart"></i>
+  			  		</div>
+  			  		<div class="add-content">
+  			  			<i class="fas fa-plus"></i>
+  			  		</div>
+  			  	</div>
+  			  </div>
+
+  			  <div class="music-playing-right-now-choices-content-items">
+  			  	<div>
+  			  		<div>12</div>
+  			  		<div><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVrssupCjgAvqtxnHygr-4qipUL81b3oaIKDxrYrHZ0uDaAz9a"></a></div>
+  			  		<div>
+  			  			<div>
+  			  				Mirage
+  			  			</div>
+  			  			<div>
+  			  				Else
+  			  			</div>
+  			  		</div>
+  			  	</div>
+  			  	<div>
+  			  		<div class="like-content">
+  			  			<i class="fas fa-heart"></i>
+  			  		</div>
+  			  		<div class="add-content">
+  			  			<i class="fas fa-plus"></i>
+  			  		</div>
+  			  	</div>
+  			  </div>
+              
+
+  			</div>
+  		</div>
+  	</section>
+
+<!-- aside section -->
+
+  	<aside>
+
+<!-- similar artists -->
+
+  		<div id="similar-artists">
+  			<div id="similar-artists-header">
+  				<div>
+  					Similar Artists
+  				</div>
+  				<div>View All</div>
+  			</div>
+  			<div id="similar-artists-content">
+  				<div class="similar-artists-content-items">
+  				   <div>
+  				  <div class="similar-artists-content-items-image">
+  				  	<a href="#"><img src="../assets/popular_artists/bruno.jpg"></a>
+  				  </div>
+  				  <div class="similar-artists-content-items-details"><div>Imagine Dragons</div>
+  				    <div>Poo Brand</div>
+  				  </div>
+  				  </div>
+                  
+                  <div class="similar-artists-content-items-dialog-choices">
+  				  	<div>
+			        <i class="fas fa-ellipsis-h"></i>
+			       </div>
+			       <div class="similar-artists-content-items-dialog-choices-content">
+			         <div class="similar-artists-content-items-content-items">
+			           <div><div><a href="#"><i class="fas fa-play"></i></a></div></div>
+			           <div>Play Now</div>
+			         </div>
+			         <div class="similar-artists-content-items-choices-content-items">
+			           <div><div><a href="#"><i class="fas fa-plus"></i></a></div></div>
+			           <div>Add To Queue</div>
+			         </div>
+			         <div class="similar-artists-content-items-choices-content-items">
+			           <div><div><a href="#"><i class="fas fa-heart"></i></a></div></div>
+			           <div>Add To Favourites</div>
+			         </div>
+			         <div class="similar-artists-content-items-choices-content-items">
+			           <div><div><a href="#"><i class="fas fa-info-circle"></i></a></div></div>
+			           <div>Song Info</div>
+			         </div>
+			       </div>
+			     <div>4:44</div>
+  				  </div>
+  				</div>
+
+  				<div class="similar-artists-content-items">
+  				   <div>
+  				  <div class="similar-artists-content-items-image">
+  				  	<a href="#"><img src="../assets/popular_artists/lipa.jpg"></a>
+  				  </div>
+  				  <div class="similar-artists-content-items-details"><div>Imagine Dragons</div>
+  				    <div>Poo Brand</div>
+  				  </div>
+  				  </div>
+                  
+                  <div class="similar-artists-content-items-dialog-choices">
+  				  	<div>
+			        <i class="fas fa-ellipsis-h"></i>
+			       </div>
+			       <div class="similar-artists-content-items-dialog-choices-content">
+			         <div class="similar-artists-content-items-content-items">
+			           <div><div><a href="#"><i class="fas fa-play"></i></a></div></div>
+			           <div>Play Now</div>
+			         </div>
+			         <div class="similar-artists-content-items-choices-content-items">
+			           <div><div><a href="#"><i class="fas fa-plus"></i></a></div></div>
+			           <div>Add To Queue</div>
+			         </div>
+			         <div class="similar-artists-content-items-choices-content-items">
+			           <div><div><a href="#"><i class="fas fa-heart"></i></a></div></div>
+			           <div>Add To Favourites</div>
+			         </div>
+			         <div class="similar-artists-content-items-choices-content-items">
+			           <div><div><a href="#"><i class="fas fa-info-circle"></i></a></div></div>
+			           <div>Song Info</div>
+			         </div>
+			       </div>
+			     <div>4:44</div>
+  				  </div>
+  				</div>
+
+  				<div class="similar-artists-content-items">
+  				   <div>
+  				  <div class="similar-artists-content-items-image">
+  				  	<a href="#"><img src="../assets/popular_artists/taylor.jpg"></a>
+  				  </div>
+  				  <div class="similar-artists-content-items-details"><div>Imagine Dragons</div>
+  				    <div>Poo Brand</div>
+  				  </div>
+  				  </div>
+                  
+                  <div class="similar-artists-content-items-dialog-choices">
+  				  	<div>
+			        <i class="fas fa-ellipsis-h"></i>
+			       </div>
+			       <div class="similar-artists-content-items-dialog-choices-content">
+			         <div class="similar-artists-content-items-content-items">
+			           <div><div><a href="#"><i class="fas fa-play"></i></a></div></div>
+			           <div>Play Now</div>
+			         </div>
+			         <div class="similar-artists-content-items-choices-content-items">
+			           <div><div><a href="#"><i class="fas fa-plus"></i></a></div></div>
+			           <div>Add To Queue</div>
+			         </div>
+			         <div class="similar-artists-content-items-choices-content-items">
+			           <div><div><a href="#"><i class="fas fa-heart"></i></a></div></div>
+			           <div>Add To Favourites</div>
+			         </div>
+			         <div class="similar-artists-content-items-choices-content-items">
+			           <div><div><a href="#"><i class="fas fa-info-circle"></i></a></div></div>
+			           <div>Song Info</div>
+			         </div>
+			       </div>
+			     <div>4:44</div>
+  				  </div>
+  				</div>
+  			</div>
+  		</div>
+
+<!-- recently played songs items -->
+
+  		<div id="recently-played">
+  			<div id="recently-played-header">
+  				<div>
+  					Recently Played
+  				</div>
+  				<div>View All</div>
+  			</div>
+  			<div id="recently-played-content">
+					<div class="recently-played-content-items">
+						 <div class="recently-played-content-items-details">
+						  <div>01</div>
+						  <div><img src="../assets/stations/love.jpg" alt=""></div>
+						  <div class="recently-played-content-items-details-song">
+							  <div>Mirage</div>
+							  <div>Else</div>
+						  </div>
+					   </div>
+					   <div>
+						  <i class="far fa-heart"></i>
+					   </div>				
+					</div>
+					<div class="recently-played-content-items">
+						<div class="recently-played-content-items-details">
+						 <div>02</div>
+						 <div><img src="../assets/stations/chillsong.jpg" alt=""></div>
+						 <div class="recently-played-content-items-details-song">
+							 <div>Mirage</div>
+							 <div>Else</div>
+						 </div>
+					  </div>
+					  <div>
+						 <i class="far fa-heart"></i>
+					  </div>				
+				   </div>
+				   <div class="recently-played-content-items">
+					<div class="recently-played-content-items-details">
+					 <div>03</div>
+					 <div><img src="../assets/stations/retro.jpg" alt=""></div>
+					 <div class="recently-played-content-items-details-song">
+						 <div>Mirage</div>
+						 <div>Else</div>
+					 </div>
+				  </div>
+				  <div>
+					 <i class="far fa-heart"></i>
+				  </div>				
+					</div>
+					<div class="recently-played-content-items">
+						<div class="recently-played-content-items-details">
+						 <div>04</div>
+						 <div><img src="../assets/stations/workout.jpg" alt=""></div>
+						 <div class="recently-played-content-items-details-song">
+							 <div>Mirage</div>
+							 <div>Else</div>
+						 </div>
+					  </div>
+					  <div>
+						 <i class="far fa-heart"></i>
+					  </div>				
+						</div>
+						<div class="recently-played-content-items">
+							<div class="recently-played-content-items-details">
+							 <div>05</div>
+							 <div><img src="../assets/stations/rocksong.jpg" alt=""></div>
+							 <div class="recently-played-content-items-details-song">
+								 <div>Mirage</div>
+								 <div>Else</div>
+							 </div>
+						  </div>
+						  <div>
+							 <i class="far fa-heart"></i>
+						  </div>				
+							</div>
+
+
+		    </div>
+		</div>
+  	</aside>
+  </main>
+</body>
+</html>
